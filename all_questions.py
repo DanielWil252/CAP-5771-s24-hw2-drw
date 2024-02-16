@@ -214,10 +214,10 @@ def question5():
     explain["b"] = "Model 1"
     explain["b explain"] = "Given just the accuracies, I would choose model 1 over model 2."
 
-    explain["c similarity"] = ""
+    explain["c similarity"] = "Preventing Overfitting."
     explain["c similarity explain"] = "Both MDL and the pessimistic error estimate aim to prevent overfitting by penalizing the model if it is overcomplex."
 
-    explain["c difference"] = ""
+    explain["c difference"] = "Difference in approach."
     explain["c difference explain"] = "MDL and pessimistic error estimate operate differently to achieve a similar goal. MDL achieves this by selecting a model that compresses the data to the smallest size, while pessimistic error estimate directly adds penalties to the error rate based on the complexity of the model."
 
     return explain
